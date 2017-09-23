@@ -104,6 +104,10 @@
 		<field name="READ_LOGS" />
 		<field name="READ_OWNER_DATA" />
 		<field name="READ_PHONE_STATE" />
+        
+        	<!-- add by rom - jin-->
+        	<field name="READ_REAL_PHONE_STATE" />
+        
 		<field name="READ_PROFILE" since="14" />
 		<field name="READ_SMS" />
 		<field name="READ_SOCIAL_STREAM" since="15" />
@@ -28580,6 +28584,10 @@
 		<method name="onSignalStrengthsChanged(Landroid/telephony/SignalStrength;)V" since="7" />
 		<field name="LISTEN_CALL_FORWARDING_INDICATOR" />
 		<field name="LISTEN_CALL_STATE" />
+
+        <!--add by rom -jin-->
+		<field name="LISTEN_REAL_CALL_STATE" />
+        
 		<field name="LISTEN_CELL_INFO" since="17" />
 		<field name="LISTEN_CELL_LOCATION" />
 		<field name="LISTEN_DATA_ACTIVITY" />
